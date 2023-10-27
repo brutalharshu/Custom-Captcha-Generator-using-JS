@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Custom Captcha Generator using JS</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <header>Captcha Generator</header>
+  <div class="input_field captch_box">
+    <input type="text" value="" disabled />
+    <button class="refresh_button">
+      <i class="fa-solid fa-rotate-right"></i>
+    </button>
+  </div>
+  <div class="input_field captch_input">
+    <input type="text" placeholder="Enter captcha" />
+  </div>
+  <div class="message">Entered captcha is correct</div>
+  <div class="input_field button disabled">
+    <button>Submit Captcha</button>
+  </div>
+</div>
+<!-- can remove footer -->
+    <style>
+      footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        font-size: 50px;
+      }
+    </style>
+    <footer>
+      <p>
+        <a href="https://www.instagram.com/ig.harsh_07/" target="_blank">~ HaRsH</a>
+      </p>
+    </footer>
+    <!-- can remove footer -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
